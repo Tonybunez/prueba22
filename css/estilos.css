@@ -1,0 +1,30 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+nav>div>img{
+	border:1px solid red;
+	align-self:flex-end;
+}
+nav>div>ul{
+	list-style:none;
+	flex-wrap: wrap;
+}
+nav>div>ul>li{
+	align-self:center;
+	text-align:center;
+}
+nav>div>ul>li>a{
+	color:black;
+}
+nav>div>ul>li>a:hover{
+	text-decoration:none;
+	color:gray;
+}
+
+
+@media(max-width:576px){
+		nav>div>ul>li{
+		margin-top:40px;
+	}
+}
