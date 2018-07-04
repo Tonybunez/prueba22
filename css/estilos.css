@@ -2,8 +2,10 @@
 	padding:0px;
 	margin:0px;
 }
+nav{
+	border-bottom:1px solid gray;
+}
 nav>div>img{
-	border:1px solid red;
 	align-self:flex-end;
 }
 nav>div>ul{
@@ -23,8 +25,25 @@ nav>div>ul>li>a:hover{
 }
 
 
+#cosa2{
+	background-image:url(../img/separadores-anime-3.jpg);
+	background-size:contain;
+	height:20rem;
+}
+/*Fixed Responsive*/
 @media(max-width:576px){
 		nav>div>ul>li{
 		margin-top:40px;
 	}
+	#btn-separador{
+		margin-bottom:1rem;
+	}	
+	
+	#main_section>p{
+		margin-top:1rem
+	}
+}
+/*Fixed*/
+button:hover{
+	cursor: pointer;
 }
